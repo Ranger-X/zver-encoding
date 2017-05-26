@@ -1,0 +1,12 @@
+
+
+Code Coverage Report:   
+  2016-06-23 09:26:31   
+                        
+ Summary:               
+  Classes: 100.00% (2/2)
+  Methods: 100.00% (2/2)
+  Lines:   100.00% (6/6)
+
+\Zver::Encoding
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% (  6/  6)

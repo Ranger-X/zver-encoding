@@ -1,0 +1,26 @@
+{
+  "name": "zver/encoding",
+  "description": "Encoding provides static access to use in all project classes/functions.",
+  "keywords": [
+    "encoding",
+    "zver"
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "": "tests/"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "codeception/codeception": "2.*",
+    "codeception/c3": "2.*",
+    "phpdocumentor/phpdocumentor": "2.*",
+    "cvuorinen/phpdoc-markdown-public": "*"
+  }
+}

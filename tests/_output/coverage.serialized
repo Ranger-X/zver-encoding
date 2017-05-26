@@ -1,0 +1,51 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  'C:\\OpenServer\\domains\\encoding\\src\\Zver\\Encoding.php' => 
+  array (
+    43 => 
+    array (
+      0 => 'EncodingCest:encodingTest',
+    ),
+    44 => 
+    array (
+      0 => 'EncodingCest:encodingTest',
+    ),
+    45 => 
+    array (
+      0 => 'EncodingCest:encodingTest',
+    ),
+    46 => NULL,
+    47 => 
+    array (
+      0 => 'EncodingCest:encodingTest',
+    ),
+    48 => 
+    array (
+      0 => 'EncodingCest:encodingTest',
+    ),
+    64 => 
+    array (
+      0 => 'EncodingCest:encodingTest',
+    ),
+    65 => NULL,
+  ),
+  'C:\\OpenServer\\domains\\encoding\\src\\Zver\\Exceptions\\Encoding\\UnknownEncodingException.php' => 
+  array (
+  ),
+));
+$coverage->setTests(array (
+  'EncodingCest:encodingTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => NULL,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  'C:\\OpenServer\\domains\\encoding\\src\\Zver\\Encoding.php' => true,
+  'C:\\OpenServer\\domains\\encoding\\src\\Zver\\Exceptions\\Encoding\\UnknownEncodingException.php' => true,
+));
+
+return $coverage;
